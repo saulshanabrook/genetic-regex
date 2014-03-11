@@ -7,4 +7,5 @@
                  [roul "0.2.0"]]
   :main ^:skip-aot genetic.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}
+             :dev {:dependencies [[midje "1.5.1"]]}})
